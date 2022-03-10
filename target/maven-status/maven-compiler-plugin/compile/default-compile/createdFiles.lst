@@ -1,0 +1,7 @@
+af\crm\webplatform\App.class
+af\crm\webplatform\entities\User.class
+af\crm\webplatform\repository\RepoUser.class
+af\crm\webplatform\entities\Client.class
+af\crm\webplatform\lib\Encryptor.class
+af\crm\webplatform\controllers\Controller.class
+af\crm\webplatform\entities\UserFront.class
