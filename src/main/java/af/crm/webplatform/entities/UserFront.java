@@ -5,11 +5,17 @@ public class UserFront {
     private String fullName;
     private String email;
 
-    UserFront(){}
+    public UserFront(){}
 
     public UserFront(String fullName, String email) {
         this.fullName = fullName;
         this.email = email;
+    }
+
+    public UserFront(User user) {
+        this.id = user.getId();
+        this.fullName = user.getFullName();
+        this.email = user.getEmail();
     }
 
     public long getId() {

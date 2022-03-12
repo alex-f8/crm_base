@@ -1,7 +1,5 @@
 package af.crm.webplatform.entities;
 
-import af.crm.webplatform.lib.Encryptor;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +10,7 @@ import java.util.Calendar;
 import java.util.Objects;
 
 @Entity
-@Table(name = "customer")
+@Table(name = "clients")
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

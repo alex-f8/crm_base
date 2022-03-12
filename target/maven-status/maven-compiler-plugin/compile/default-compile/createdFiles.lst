@@ -1,4 +1,5 @@
 af\crm\webplatform\App.class
+af\crm\webplatform\repository\RepoClient.class
 af\crm\webplatform\entities\User.class
 af\crm\webplatform\repository\RepoUser.class
 af\crm\webplatform\entities\Client.class
