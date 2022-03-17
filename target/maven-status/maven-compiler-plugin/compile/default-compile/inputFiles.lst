@@ -1,8 +1,11 @@
-D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\controllers\Controller.java
+D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\lib\DataCheck.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\lib\Encryptor.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\entities\Client.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\repository\RepoClient.java
+D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\controllers\ControllerUsers.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\entities\User.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\entities\UserFront.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\repository\RepoUser.java
+D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\lib\DataConverter.java
 D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\App.java
+D:\JAVA\Projects\Client CRM\src\main\java\af\crm\webplatform\controllers\ControllerClients.java

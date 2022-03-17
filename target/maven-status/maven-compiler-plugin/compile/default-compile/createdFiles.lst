@@ -7,4 +7,5 @@ af\crm\webplatform\repository\RepoUser.class
 af\crm\webplatform\controllers\ControllerUsers.class
 af\crm\webplatform\entities\Client.class
 af\crm\webplatform\lib\Encryptor.class
+af\crm\webplatform\lib\DataConverter.class
 af\crm\webplatform\entities\UserFront.class

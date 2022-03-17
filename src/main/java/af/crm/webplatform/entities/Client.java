@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Calendar;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -20,7 +20,7 @@ public class Client {
     @Column(name = "surname")
     private String surname;
     @Column(name = "birth_date")
-    private Calendar birthDate;
+    private LocalDate birthDate;
     @Column(name = "gender")
     private char gender;
     @Column(name = "email")
@@ -31,14 +31,15 @@ public class Client {
     Client() {
     }
 
-    public Client(String name, String surname, Calendar birthDate, char gender, String email, String phone) {
+    public Client(String name, String surname, String birthDate, char gender, String email, String phone) {
         this.name = name;
         this.surname = surname;
-        this.birthDate = birthDate;
+        this.birthDate = LocalDate.parse(birthDate);
         this.gender = gender;
         this.email = email;
         this.phone = phone;
     }
+
 
     public long getId() {
         return id;
@@ -60,12 +61,12 @@ public class Client {
         this.surname = surname;
     }
 
-    public Calendar getBirthDate() {
-        return birthDate;
+    public String getBirthDate() {
+        return birthDate.toString();
     }
 
-    public void setBirthDate(Calendar birthDate) {
-        this.birthDate = birthDate;
+    public void setBirthDate(String birthDate) {
+        this.birthDate = LocalDate.parse(birthDate);
     }
 
     public char getGender() {
